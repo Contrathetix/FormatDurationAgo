@@ -1,0 +1,7 @@
+LastOnlineFormat.Strings = {
+    DisplayMode = EsoStrings[SI_GRAPHICS_OPTIONS_VIDEO_DISPLAY_MODE],
+    OptionDefault = EsoStrings[SI_AUDIOSPEAKERCONFIGURATIONS0],
+    OptionISO = 'ISO '..EsoStrings[SI_MASTER_WRIT_DESCRIPTION_STYLE],
+    OptionDefaultISO = EsoStrings[SI_AUDIOSPEAKERCONFIGURATIONS0]..', '..'ISO '..EsoStrings[SI_MASTER_WRIT_DESCRIPTION_STYLE],
+    OptionISODefault = 'ISO '..EsoStrings[SI_MASTER_WRIT_DESCRIPTION_STYLE]..', '..EsoStrings[SI_AUDIOSPEAKERCONFIGURATIONS0]
+}

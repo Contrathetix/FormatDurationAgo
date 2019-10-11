@@ -1,0 +1,14 @@
+## Title: LastOnlineFormat
+## Author: Contrathetix
+## APIVersion: 100028
+## AddOnVersion: 001
+## Version: 1
+## IsLibrary: false
+## DependsOn: LibStub LibAddonMenu-2.0
+## SavedVariables: LastOnlineFormatData
+
+Constants.lua
+Strings.lua
+ConfigMenu.lua
+FormatHandler.lua
+LastOnlineFormat.lua
