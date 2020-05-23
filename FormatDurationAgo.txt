@@ -1,0 +1,15 @@
+## Title: FormatDurationAgo
+## Author: Contrathetix
+## APIVersion: 100030
+## AddOnVersion: 2
+## Version: 2
+## IsLibrary: false
+## DependsOn: LibAddonMenu-2.0
+## SavedVariables: FormatDurationAgoData
+
+Variables/Constants.lua
+Variables/Strings.lua
+
+Modules/FormatHandler.lua
+Modules/ConfigMenu.lua
+Modules/AddOnConfig.lua
