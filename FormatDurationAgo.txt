@@ -1,6 +1,6 @@
 ## Title: FormatDurationAgo
 ## Author: Contrathetix
-## APIVersion: 100030
+## APIVersion: 100033
 ## AddOnVersion: 2
 ## Version: 2
 ## IsLibrary: false
