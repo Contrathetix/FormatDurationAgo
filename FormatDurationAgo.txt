@@ -1,11 +1,12 @@
 ## Title: FormatDurationAgo
 ## Author: Contrathetix
-## APIVersion: 100033
+## APIVersion: 100034
 ## AddOnVersion: 2
 ## Version: 2
 ## IsLibrary: false
 ## DependsOn: LibAddonMenu-2.0
 ## SavedVariables: FormatDurationAgoData
+## Description: Customisation options for formatting date and time within the game UI.
 
 Variables/Constants.lua
 Variables/Strings.lua
