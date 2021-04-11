@@ -2,6 +2,14 @@ FormatDurationAgo.FormatHandler = {}
 
 FormatDurationAgo.FormatHandler.FormatFunctions = {}
 
+function FormatDurationAgo.FormatHandler.FormatFunctions.FixSeconds(seconds)
+    if seconds > 946677600 then
+        return os.time() - seconds
+    else
+        return seconds
+    end
+end
+
 function FormatDurationAgo.FormatHandler.FormatFunctions.FormatDefault(seconds)
     if(seconds < ZO_ONE_MINUTE_IN_SECONDS) then
         return GetString(SI_TIME_DURATION_NOT_LONG_AGO)
@@ -42,6 +50,7 @@ FormatDurationAgo.FormatHandler.FunctionMap = {
 }
 
 function FormatDurationAgo.FormatHandler.FormatDurationAgo(seconds)
+    local secondsFixed = FormatDurationAgo.FormatHandler.FormatFunctions.FixSeconds(seconds)
     local formatFunction = FormatDurationAgo.FormatHandler.FunctionMap[FormatDurationAgo.ConfigSaved.DisplayMode]
-    return formatFunction(seconds)
+    return formatFunction(secondsFixed)
 end
